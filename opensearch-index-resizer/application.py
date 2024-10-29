@@ -5,10 +5,10 @@ This module generates dynamic shard size for elasticsearch indices.
 Example:
     An example when connecting over https and using debug mode:
 
-        $ python application.py --host elasticsearch.uacf.io --port 443 --scheme https --debug True
+        $ python application.py --host elasticsearch-url --port 443 --scheme https --debug True
 
 Attributes:
-    host (str): hostname for elasticsearch cluster (localhost/elasticsearch.uacf.io).
+    host (str): hostname for elasticsearch cluster (localhost/elasticsearch-url).
     scheme (str): scheme for elasticsearch cluster (http/https).
     port (int): port for elasticsearch cluster (9200/443).
     debug (bool): debug flag (True/False).
