@@ -5,7 +5,7 @@ class ApplicationTests(unittest.TestCase):
 
     def setUp(self):
         self.es_client = application.connect_elasticsearch(
-                        host='elasticsearch.uacf.io',
+                        host='elasticsearch-url',
                         scheme='https',
                         port=443)
 
